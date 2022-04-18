@@ -1,0 +1,552 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	  <style>
+		#pi{
+		border-bottom:2px solid orange;
+		border-top:2px solid white;
+		}
+		
+		.cars{
+	margin:auto;
+	padding:auto;
+	text-align:center;
+	align:center;
+	background:white;
+}
+
+.car{
+	width:350px;
+	height:350px;
+	background:grey;
+	position:relative;
+	align:center;
+		border-radius:5px;
+		margin:auto;
+		margin-top:5%;
+		margin-bottom:5%;
+			
+}
+.car1{
+	width:300px;
+	padding-top:20px;
+	height:300px;
+	background:black;
+	color:white;
+	position:absolute;
+	top:20px;
+	left:20px;
+	border-radius:5px;
+	align:center;
+}
+
+.car1:hover{
+
+			transform:translateY(-30px);
+			transition:1s ease;
+
+	}
+
+
+		}
+		<!-- #aa{ -->
+		<!-- background:black; -->
+		<!-- border:2px solid black; -->
+		<!-- color:white; -->
+		<!-- } -->
+		<!-- #bb{ -->
+		<!-- background:black; -->
+		<!-- border:2px solid black; -->
+		<!-- color:white; -->
+		<!-- } -->
+		
+		
+		#agency{
+		font-family:fantasy;
+		}
+		
+	  .one{
+	  color:red;
+	  }
+	  .navbar{
+	  width:100%;
+	  }
+	  .navbar-brand{
+	  width:70%;
+	  float:left;
+	  padding-left:30px;
+	  }
+	  .collapse{
+	  float:right;
+	  }
+	  ul li{
+	  padding-left:30px!important;
+	  }
+	 
+	   
+	  #main{
+	  width:100%;
+	 
+	  background:url(man3.jpg) black no-repeat 90%;
+	  }
+	  
+	  .hh {
+	  width:100%;
+	 height:500px;
+	  color:white;
+	  position:relative;
+	   }
+	  
+	 .mybtn{
+			position:absolute;
+			bottom:20%;
+			left:30px;
+	 }
+	 
+	 #ok{
+	 color:black;
+	 background:orange;
+	 }
+	  .hh h1{
+	  font-size:70px;
+	  }
+	  .pink{
+	  color:#f90CA7;
+	  }
+	 
+	 .options{
+	 height:80px;
+	 position:relative;
+	 margin-top:30px;
+     padding-left:20px;
+	 padding-right:20px;
+	 border:2px solid brown;
+	 background:grey;
+	 border-radius:0.5rem;
+	 }
+	 
+	 .options:hover{
+	 
+	 background:pink;
+	 cursor:pointer;
+	 padding-left:35px;
+	 }
+	
+
+#gap{
+margin-top:18px;
+}
+.left{
+padding-left:50px;
+}
+.footer{
+width:100%;
+background:black;
+font-size:15px;
+color:white;
+padding-top:50px;
+}
+
+ul li{
+padding-bottom:10px;
+list-style:none;
+}
+
+ul li a:hover{
+color:#f90CA7;
+text-decoration:none;
+}
+ 
+ hr{
+ border:2px solid white;
+ }
+ 
+.last{
+text-align:center
+}
+h4{
+padding-left:50px;
+}
+	  
+   </style>
+	<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="pi">
+  <a class="navbar-brand" href="#"><h2 id="agency"><span class="one"><i>WEB</i></span>&nbsp;AGENCY</h2> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Abts">About Us</a> 
+	<li class="nav-item">
+        <a class="nav-link" href="#service">Services</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#mnm">Contact Us</a>
+      </li>
+    </ul>
+  
+  </div>
+</nav>
+<div class="container-fluid" id="main">
+   <div class="row">
+      <div class="col-sm-6 col-md-6  col-lg-6 col-xl-6">
+      <div class="hh"><h1> We're <br>a <br>Digital Agency</h1>
+	  <div class="btn-group mybtn" role="group" aria-label="Basic example">
+  <button type="button" id="b1" class="btn btn-outline-danger">Get Started</button>&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="b2" class="btn btn-outline-info">Sign-in</button>
+      </div>
+	  </div>
+     </div>
+    <!-- <div class="col-sm-6 col-md-6  col-lg-6 col-xl-6"> -->
+   
+   <!-- <img src="man3.jpg" class="img-fluid" id="crokk"> -->
+    
+  <!-- </div> -->
+</div>
+</div>
+<div class="container-fluid" id="ok">
+  <div class="row">
+    <div class="col-sm-4 col-md-4  col-lg-4 col-xl-4"><br>
+	<svg xmlns="http://www.w3.org/2000/svg" width="60" height="45 " fill="currentColor" class="bi bi-award" viewBox="0 0 16 16">
+  <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+  <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+</svg>
+	<h2>Product design</h2>
+<p>Design Thinking starts with consumer and not with products. It is simple yet powerful tool to create win-win product/service opportunities for business and users. User empathy is at its core and design tools like ideation, quick prototyping helps brands to identify real problem, hence real solution. </p>   </div>
+    <div class="col-sm-4 col-md-4  col-lg-4 col-xl-4"><br>
+	<svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="currentColor" class="bi bi-bricks" viewBox="0 0 16 16">
+  <path d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2h5V1h-5zm6 0v2H15V1h-3.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z"/>
+</svg>
+	<h2>Home design</h2>
+ <p>we believe that interior design is more than great functionality and beautiful aesthetics. We aim to make your home interiors a reflection of your personality. Your home should be something that you and your family take pride in and love to spend time in our efficient </p>    </div>
+    <div class="col-sm-4 col-md-4  col-lg-4 col-xl-4">
+	<br>
+	<svg xmlns="http://www.w3.org/2000/svg" width="60" height="45" fill="currentColor" class="bi bi-earbuds" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.825 4.138c.596 2.141-.36 3.593-2.389 4.117a4.432 4.432 0 0 1-2.018.054c-.048-.01.9 2.778 1.522 4.61l.41 1.205a.52.52 0 0 1-.346.659l-.593.19a.548.548 0 0 1-.69-.34L.184 6.99c-.696-2.137.662-4.309 2.564-4.8 2.029-.523 3.402 0 4.076 1.948zm-.868 2.221c.43-.112.561-.993.292-1.969-.269-.975-.836-1.675-1.266-1.563-.43.112-.561.994-.292 1.969.269.975.836 1.675 1.266 1.563zm3.218-2.221c-.596 2.141.36 3.593 2.389 4.117a4.434 4.434 0 0 0 2.018.054c.048-.01-.9 2.778-1.522 4.61l-.41 1.205a.52.52 0 0 0 .346.659l.593.19c.289.092.6-.06.69-.34l2.536-7.643c.696-2.137-.662-4.309-2.564-4.8-2.029-.523-3.402 0-4.076 1.948zm.868 2.221c-.43-.112-.561-.993-.292-1.969.269-.975.836-1.675 1.266-1.563.43.112.561.994.292 1.969-.269.975-.836 1.675-1.266 1.563z"/>
+</svg>
+<h2>Product design</h2>
+<p>Design Thinking starts with consumer and not with products. It is simple yet powerful tool to create win-win product/service opportunities for business and users. User empathy is at its core and design tools like ideation, quick prototyping helps brands to identify real problem, hence real solution.</p>
+    </div>
+  </div>
+</div>
+ <!-- about change -->
+
+<section class="cars">
+<div class="row justify-content-between d-flex">
+
+		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " >
+			<div class="car">
+				<div class="car1">
+					<h3>Product Descriptions</h3>
+					<p>Unique, search engine optimized product descriptions that make each of your product pages the optimal landing page for users and search engines.</p>
+					<button type="button" class="btn btn-outline-info">Read more</button>
+
+				</div>
+			
+			</div>
+		</div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " >
+			<div class="car">
+				<div class="car1">
+					<h3>Product Categorization</h3>
+					<p>Exact allocation and marking of each product from your store assortment into the appropriate product categories with suitable keywords, to improve the findability of your offer in the store and via search engines.</p>
+				</div>
+			
+			
+			</div>
+		</div>
+
+</div>
+
+<div class="row">
+
+		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " >
+			<div class="car">
+				<div class="car1">
+					<h3>Product Descriptions</h3>
+					<p>Unique, search engine optimized product descriptions that make each of your product pages the optimal landing page for users and search engines.</p>
+					<button type="button" class="btn btn-outline-info">Read more</button>
+			
+				</div>
+			
+			</div>
+		</div>
+		<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 " >
+			<div class="car">
+				<div class="car1">
+					<h3>Product Categorization</h3>
+					<p>Exact allocation and marking of each product from your store assortment into the appropriate product categories with suitable keywords, to improve the findability of your offer in the store and via search engines.</p>
+					
+				</div>
+			
+			
+			</div>
+		</div>
+
+</div>
+
+</section>
+	<!-- about change till here -->
+	
+			<div class="services" id="service">
+				<div class="container">
+					<div class="row pt-5">
+						<div class="col-sm-12 cols-lg-4 cols-xl-4 cols-md-4">
+							<h2>Services.</h2>
+							<p class="pink">WE WORK WITH YOU, NOT FOR YOU</p>
+							</div>
+						</div>
+					</div>
+				<div class="main _services">
+					<div class="container">
+					<div class="row pt-3">
+					<div class="col-sm-12 col-lg-4 col-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options "> 
+					<h3>Digital Strategy</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+					</div>
+					</div>
+					
+					<div class="col-sm-12 col-lg-4 col-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options "> 
+					<h3>UX Design</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+					</div>
+					</div>
+					
+					
+					<div class="col-sm-12 col-lg-4 col-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options "> 
+					<h3>product Design</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+
+					</div>
+					</div>
+					
+					
+					<div class="col-sm-12 col-lg-4 cols-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options ">  
+					<h3>Contant Stratergy</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+
+					</div>
+					</div>
+					
+					
+					<div class="col-sm-12 col-lg-4 col-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options ">  
+					<h3>Design & concept</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+					</div>
+					</div>
+					
+					
+					<div class="col-sm-12 col-lg-4 col-xl-4 col-md-4">
+					<div class="d-flex align-items-center justify-content-between options ">  
+					<h3>Social Media</h3>
+					<span><i class="fas fa-arrow-right" class="pp"></i></span>
+					</div>
+					</div>
+					</div>
+					
+				
+			</div>
+		</div>
+		</div>
+		
+		<div class="works" id="works">
+				<div class="container">
+					<div class="row pt-5">
+						<div class="col-sm-12 col-xl-12 col-md-12 col-lg-12">
+								<h2>Works.</h2>
+								<p class="pink">THINGS WE,VE MADE</p>
+								</div>
+				
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner okayy">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="bike1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="bike2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="biker1.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="aboutmain">
+				<div class="container">
+					<div class="row pt-5">
+						<div class="col-sm-6 col-lg-6 col-xl-6 col-md-6">
+						<div class="aboutus">
+							<h2>About.</h2>
+							<p class="pink">WE'RE MORE THAN A DIGITAL AGENCY</p>
+						</div>
+						</div>
+						<div class="col-sm-6 col-lg-6 col-xl-6 col-md-6">
+						<div class="line">
+							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+						</div>
+					   </div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="main_img">
+	<div class="container">
+	<div class="row">
+	<div class="col-sm-12 col-lg-8 col-xl-8 col-md-8">
+	<img src="man3.jpg" class="d-block w-100">
+	</div>
+	<div class="col-sm-12 col-lg-4 col-xl-4 col-md-8">
+	<img src="man3.jpg" class="d-block w-100">
+	<img src="man3.jpg" class="d-block w-100" id="gap">
+	
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	
+	<div class="row pt-5">
+				<div class="col-sm-12 col-lg-4 left">
+					<h3>Who we are</h3>
+					<p>We are Inside Creative, as our name suggests we are a creative marketing agency which work closely with your organisation to develop a strong marketing strategy to help you grow your brand, sales and brand awareness.</p>
+				</div>
+				
+				<div class="col-sm-12 col-lg-4 left">
+					<h3>Our Philosophy</h3>
+					<p>In fulfilling our management philosophy, our fundamental goal is to establish trust and grow as a company that is recognized by its customers, shareholders, business partners and society for its superior products, services, technologies.</p>
+				</div>
+				
+				<div class="col-sm-12 col-lg-4 left">
+					<h3>How we work</h3>
+					<p>The Way We Work is an original video series where leaders and thinkers offer practical wisdom and insight into how we can adapt and thrive amid changing workplace conventions. </p>
+				</div>
+	</div>
+	
+	
+	<div class="footer">
+	<div class="container container-fluid">
+					<div class="row">
+					<div class="col-sm-6 col-lg-3"> 
+					<p>There are many variantions of users of Digital Agency</p>
+									<ul class="contact-details">
+										<li>
+											<i class="fas fa-phone-alt"></i>Call Us:
+											<a href="#">0987654321</a>
+										</li>
+										<li>
+											<i class="fas fa-envelope-open-text"></i>
+											<a href="#">help@others.com</a>
+										</li>
+									</ul>
+										
+									<ul class="social-icons">
+										<li><a href="#"><i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;
+										<a href="#"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+										<a href="#"><i class="fab fa-instagram"></i></a></li>
+									</ul>
+					</div>
+					<div class="col-lg-3 col-sm-6">
+									<h4 class="footer-widget-title">Popular Category</h4>
+										<ul>
+											<li>
+											<a href="#">UX Design</a>
+											</li>
+											<li>
+											<a href="#">Media Planning</a>
+											</li>
+											<li>
+											<a href="#">Design & Concept</a>
+											</li>
+											<li>
+											<a href="#">SEO Optimization</a>
+											</li>
+										</ul>
+								</div>
+								
+								
+								
+						<div class="col-lg-3 col-sm-6">
+									<h4 class="footer-widget-title">Our Company</h4>
+										<ul>
+											<li>
+											<a href="#">About Us</a>
+											</li>
+											<li>
+											<a href="#">How it works</a>
+											</li>
+											<li>
+											<a href="#">Contact us</a>
+											</li>
+											<li>
+											<a href="#">Plan &amp; pricing</a>
+											</li>
+											<li>
+											<a href="#">Blog</a>
+											</li>
+										</ul>
+								</div>
+						
+							<div class="col-lg-3 col-sm-6">
+									<h4 class="footer-widget-title">Help Support</h4>
+										<ul>
+											<li>
+											<a href="#">Support Forum</a>
+											</li>
+											<li>
+											<a href="#">Terms &amp; Conditions</a>
+											</li>
+											<li>
+											<a href="#">Support Policy</a>
+											</li>
+											<li>
+											<a href="#">FAQs</a>
+											</li>
+								 </ul>
+								</div>
+						
+	</div>				
+	</div>
+	     <hr>
+		 <div class="container container-fluid" id="mnm">
+					<div class="row">
+					<div class="col-sm-12 col-lg-12"> 
+					<p class="last">© 2021 All rights reserved. Created by <span class="pink">Aniket Dubey</span></p>
+					</div>
+					</div>
+					</div>
+	</div>
+		</body>
+	</html>
